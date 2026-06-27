@@ -27,12 +27,12 @@ Static-website-using-docker/
 
 ## Build the Docker Image
 ```bash
-docker build -t my-static-site .
+docker build -t Static-website-using-docker .
 ```
 
 ## Run the Container
 ```bash
-docker run -d -p 8080:80 --name mysite my-static-site
+docker run -d -p 8080:80 --name mysite Static-website-using-docker
 ```
 
 ## Access the Website
