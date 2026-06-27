@@ -1,7 +1,3 @@
-# Static-website-using-docker-
-Built and containerized a static website using Docker and Nginx. Created a Docker image with a custom Dockerfile, deployed the application in a container, and managed it using Docker CLI.
-
-
 # Docker Static Website
 
 ## Overview
@@ -32,7 +28,7 @@ docker build -t Static-website-using-docker .
 
 ## Run the Container
 ```bash
-docker run -d -p 8080:80 --name mysite Static-website-using-docker
+docker run -d -p 8080:80 --name Static-website-using-docker
 ```
 
 ## Access the Website
