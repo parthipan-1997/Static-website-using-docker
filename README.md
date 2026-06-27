@@ -15,7 +15,7 @@ This project demonstrates how to containerize a simple static website using Dock
 
 ## Project Structure
 ```
-docker-static-website/
+Static-website-using-docker/
 ├── index.html
 ├── style.css
 ├── Dockerfile
